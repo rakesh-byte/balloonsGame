@@ -5,7 +5,10 @@ body{
     padding: 0;
     margin: 0;
     font-family: Arial;
+    background-color: tan;
 }
+
+/* balloon sizing */
 
 .balloon{
     width: 100px;
@@ -17,31 +20,38 @@ body{
     background-repeat: no-repeat;
 }
 
+/* Ballon image  red*/
+
 .balloon-red{
     background-image: 
         url(../images/balloon-red.png);
 }
 
+/* Ballon image  green*/
 .balloon-green{
     background-image: 
         url(../images/balloon-green.png);
 }
 
+/* Ballon image  yellow*/
 .balloon-yellow{
     background-image: 
         url(../images/balloon-yellow.png);
 }
 
+/* Ballon image  violet*/
 .balloon-violet{
     background-image: 
         url(../images/balloon-fiolet.png);
 }
 
+/* Ballon image  blue*/
 .balloon-blue{
     background-image: 
         url(../images/balloon-blue.png);
 }
 
+/* Background shadow in case of win or lose */
 .total-shadow{
     width: 100vw;
     height: 100vh;
@@ -52,6 +62,8 @@ body{
     z-index: 1000;
     position: relative;
 }
+
+/* Block sizing of wining and loosing block  */
 
 .total-block{
     background-color: #fff;
@@ -68,8 +80,9 @@ body{
 .loose{
     display: none;
 }
-.score-block
-{
+
+/* score block sizing */
+.score-block{
     background: #efefef;
     width: 300px;
     height: 60px;
@@ -81,6 +94,8 @@ body{
     bottom: 0;
     left: calc(50% - 150px);
 }
+
+/* Styling for background music window */
 
 .start-game-window {
 	width: 100vw;

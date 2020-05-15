@@ -8,19 +8,22 @@
 </head>
 <body>
 
+    <!-- Window to display poped balloons -->
     <div class="score-block">
         <p>You popped <span class="score">0</span> balloons</p>
     </div>
 
+    <!-- Background shadow for win or loose -->
     <div class="total-shadow">
         <div class="total-block">
+            <!-- Win time display -->
             <div class="total-wrap win">
                 <h4>Congratulations</h4>
                 <img src="images/happy.png" alt="winning">
                 <h4>You popped all 100 ballonns</h4>
                 <p>You are a champion!</p>    
             </div>
-
+                        <!-- lose time display -->
             <div class="total-wrapper lose">
                 <h4>Sorry</h4>
                 <img src="images/sad.png" alt="loosing">
@@ -32,11 +35,13 @@
         </div>
     </div>
 
+        <!-- For playing background sound -->
     <div class="start-game-window">
 		<h2>Are you ready to start?</h2>
 		<button class="start-game-button">Start</button>
-	</div>
-
+    </div>
+    
+        <!-- background Sound file -->
 	<audio src="sounds/bg-music.mp3" class="bg-music" loop></audio>
 
 
